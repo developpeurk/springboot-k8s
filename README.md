@@ -242,11 +242,11 @@ Le fichier YAML de déploiement que vous voyez décrit comment déployer une app
     - `spec`: Spécifications du pod lui-même.
       - `containers`: Liste des conteneurs à exécuter dans le pod.
         - `name`: Nom du conteneur, ici `lucky-app`.
-        - `image`: L'image Docker à utiliser pour le conteneur, `karimessouabni/lucky-app` dans ce cas.
+        - `image`: L'image Docker à utiliser pour le conteneur, `developpeurk/lucky-app` dans ce cas.
         - `ports`: Liste des ports à exposer depuis le conteneur.
           - `containerPort`: Le port du conteneur que nous exposons, ici 80.
 
-Cette configuration décrit comment déployer une réplique de l'application "lucky-app" en utilisant l'image "karimessouabni/lucky-app" et en exposant le port 80.
+Cette configuration décrit comment déployer une réplique de l'application "lucky-app" en utilisant l'image "developpeurk/lucky-app" et en exposant le port 80.
 
 
 ## Appliquer la Configuration d'un Déploiement depuis un Fichier
