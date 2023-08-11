@@ -210,7 +210,7 @@ spec:
     spec:
       containers:
       - name: lucky-app
-        image: karimessouabni/lucky-app
+        image: developpeurk/lucky-app
         ports:
         - containerPort: 80
 ````
